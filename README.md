@@ -1,7 +1,36 @@
-# HACKATHON
-I am building and developing a complete website
-Technique,"Why We Use It (The ""Reasoning"")"
-ABA Fading (Next.js State Management),"To Build Student Autonomy. We use the frontend to track the ""Habit Streak."" As the streak grows, the UI ""fades""—it literally hides certain intrusive buttons and reminders to force the student to initiate their own study sessions."
-Recharts (Data Visualization),"To Provide Metacognitive Feedback. We use Radar Charts for proficiency and Heatmaps for stress. Seeing a visual ""dip"" in a radar chart triggers a ""Metacognitive Nudge,"" making the student aware of their own learning gaps."
-NextAuth.js (Role-Based Access),"To Ensure Privacy (FERPA/GDPR). The frontend restricts views based on roles. A ""Technical"" role can see the system logs but is blocked from seeing a ""Student’s"" private health or stress data, ensuring legal compliance."
-Vanilla CSS / Glassmorphism,"To Reduce Cognitive Load. A cluttered UI creates stress. We use a ""Glassmorphism"" design system with soft gradients and HSL-based palettes to create a ""Calm Tech"" environment that keeps the student focused on the task, not the interface."
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
